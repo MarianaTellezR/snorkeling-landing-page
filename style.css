@@ -1,0 +1,120 @@
+body {
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-family: "Questrial", sans-serif;
+  /*background: linear-gradient(
+          111.5deg,
+          rgb(187, 232, 255) 11.1%,
+          rgb(4, 78, 116) 107.5%
+        );*/
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/904/original/pexels-mudassir-ali-2754659.jpg?1681423268");
+}
+h1 {
+  color: #1c7293;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  color: #53a8b6;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+h3 {
+  color: #113f67;
+}
+h4 {
+  color: #256368;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+p {
+  color: #0c2233;
+  line-height: 25px;
+  font-size: 17px;
+  text-align: justify;
+}
+strong {
+  color: #014955;
+}
+em {
+  color: #367591;
+  font-weight: bold;
+}
+span {
+  color: #38598b;
+}
+ul {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+li {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 400px;
+  transition: all 150ms ease;
+  border-radius: 10px;
+}
+li:hover {
+  background-color: #ecd9ec;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  max-width: 90%;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+a {
+  color: #b37cb3;
+  font-size: 17px;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+button {
+  background: #1c7293;
+  color: white;
+  font-family: "Questrial", sans-serif;
+  border: none;
+  border-radius: 35px;
+  font-size: 23px;
+  display: block;
+  margin: 40px auto;
+  padding: 18px 30px; /* up and down | left and right */
+  box-shadow: 2px 3px 13px rgba(35, 89, 151, 0.514);
+  transition: all 200ms ease-in;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.principal-container {
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 30px 60px; /* up and down | left and right */
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 20px;
+}
+.first-img {
+  margin-bottom: 30px;
+}
+.learn-more {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.info-paragraph {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer {
+  text-align: center;
+  font-weight: bolder;
+}
